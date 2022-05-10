@@ -1,3 +1,21 @@
+h4{
+    padding: 15px 0px;
+}
+
+.desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    margin-top:5px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
 footer{
     background-color:grey;
     height:30px;
