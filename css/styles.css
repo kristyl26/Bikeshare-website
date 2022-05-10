@@ -1,5 +1,6 @@
 h4{
     padding: 15px 0px;
+    color:#277AF9;
 }
 
 .desc{
@@ -13,9 +14,9 @@ h4{
 }
 
 .row{
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right:20px;
 }
-
 
 
 footer{
