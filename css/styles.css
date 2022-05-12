@@ -2,7 +2,7 @@
 
 
 h4{
-    padding: 15px 7px;
+    padding: 15px 15px;
     color:#277AF9;
 }
 
@@ -89,11 +89,20 @@ h2{
 }
 
 .aboutus{
-margin-left:10px;
+margin-left:15px;
+margin-right:15px;
 font-size: small;
 }
 
+form{
+    padding-left: 40px;
+    padding-right:40px;
+}
 
+.send{
+    padding-top:25px;
+    padding-bottom: 25px;
+}
 
 
 footer{
