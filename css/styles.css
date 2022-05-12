@@ -104,6 +104,16 @@ form{
     padding-bottom: 25px;
 }
 
+.how-1-img, .scan-img{
+    margin-left: 12px;
+}
+
+.how1-desc, .how2-desc, .how3-desc, .how4-desc, .how5-desc{
+    font-size: small;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right:20px;
+}
 
 footer{
     background-color:lightslategray;
