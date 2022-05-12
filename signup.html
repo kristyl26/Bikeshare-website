@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+    <title>Notos</title>
+</head>
+<body>
+     <!--Navbar-->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                  <img src="image/logo.svg" alt="" width="65" height="30"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="how.html">How it works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="signup.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="login.html">Log in / Sign up</a></li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+        <!--End of Navbar-->
+
+    
+ <!--section 1-->
+ <div class="sign-1">
+     <h4>Sign up</h4>
+     <form>
+         <div class="sign-form">
+            <div class="row g-3">
+                <div class="col-12">
+                <label for="inputName" class="form-label">Name</label>
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                    <label for="inputUser" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="inputUser">
+                  </div>
+                <div class="col-12">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <select id="inputCity" class="form-select" id="inputCity">
+                      <option selected>Bristol</option>
+                      <option>Cardiff</option>
+                      <option>Birmingham</option>
+                      <option>London</option>
+                      <option>Manchester</option>
+                      </select>
+                </div>
+                
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip/ Postal Code</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="confirm-btn">
+                <div class="col-12">
+                  <a href="index.html" class="btn btn-primary">Confirm</a>
+                </div>
+              </div>
+            </div>
+         </div>
+     </form>
+ </div>
+ <!--end of section 1-->
+
+
+
+
+
+
+        <footer>
+            <p>Thank you for visiting Notos. Stay tuned for our new promotions.
+           <br> © Notos Ltd. All rights reserved.</p>
+        </footer>
+    
+        <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

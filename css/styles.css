@@ -115,6 +115,16 @@ form{
     padding-right:20px;
 }
 
+.signup-btn{
+    padding-bottom: 170px;
+    padding-top: 10px;
+}
+
+.confirm-btn{
+    padding-bottom: 50px;
+}
+
+
 footer{
     background-color:lightslategray;
     height:50px;
